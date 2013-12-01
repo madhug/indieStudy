@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/vader/jquery-ui-1.10.3.custom.css" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+	       <!-- <script src="js/vendor/modernizr-2.6.2.min.js"></script>-->
+		   
+		<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+    </head>
+    <body>
+		<header>
+			<div class="title">
+				<h1><a href="intro.html">Land of Startups:</a> Planning</h1>
+			</div>
+			<nav>
+				<ul id="menu">
+					<li><a href="#div0">Info</a></li>
+					<li><a href="#div1">Map</a></li>
+					<li><a href="#div2">Your Company</a></li>
+					<li><a href="#div3">Connect</a></li>
+					<li><a href="#div4">Discuss</a></li>
+					<li><a href="#div5">Help</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="div0" class="page">
+		<div class="contentstruct">
+				<div class="content">
+					<p>It is traditional wisdom to start a new venture with a business plan. However, the process of planning starts long before you have written even a single sentence of the business plan. There are several aspects of the idea that you need to research and find some amount of data on, before you start writing a business plan. Some of them are - </p>
+					<img src="images/business_plan.png"></img>
+					<p>A couple of great resources to help you start your journey - </p>
+					<ul>
+					<li><a href="https://www.udacity.com/course/ep245">How to Build a Startup - Udacity</a></li>
+					<li><a href="https://www.coursera.org/course/startup">Startup Engineering - Coursera</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="div1" class="page">
+			<div class="contentstruct">
+				<div class="content">
+					<iframe class="mapsFrame" src="map.html" align="middle" seamless></iframe>
+				</div>
+			</div>
+		</div>
+		<div id="div2" class="page">
+		<div class="contentstruct">
+				<div class="content">
+					<h4>How did you start planning your company?</h4>
+					<form id="usrform">
+					  <p>
+						My idea for the company <span onclick="strike(['startOpt2'],['startOpt1'])" id="startOpt1"><u>I'm starting</u></span>/<span onclick="strike(['startOpt1'],['startOpt2'])" id="startOpt2"><u>I've started</u></span> 
+						is <textarea rows="1" cols="140" name="comment" form="usrform">
+					</textarea>
+					  </p>
+					  <p>
+						I came up with this idea when <textarea rows="1" cols="140" name="comment" form="usrform">
+					</textarea>
+					  </p>
+					  <p>
+					  This is really exciting because <textarea rows="1" cols="140" name="comment" form="usrform">
+					</textarea>
+					  </p>
+					  <input type="submit" value="Submit"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div id="div3" class="page">
+		<div class="contentstruct">
+				<div class="content">
+					<div id="questionAccordian">
+						<h5>When did you come up with the idea for the company?</h5>
+						<div>
+							<b>
+								<a href="http://dreamflightadventures.com/">Dreamflight Adventures</a>
+							</b>
+							<p>
+								It was an idea I had since I was a kid. I wasnted to build something awesome for people to come in and have an adventure together. The idea went through many versions, before it reached this version in schools. 
+							</p>
+						</div>
+						<h5>How did writing the Business Plan help you?</h5>
+						<div>
+							<b>
+								<a href="http://dreamflightadventures.com/">Dreamflight Adventures</a>
+							</b>
+							<p>
+								Dream Filght Adventures, writing a version of the business plan showed that if it was a separate venture, the cost of rent and labor was very high to make it profitable. Unlike a movie theatre and arcades, the throughput of the experience is very low - 6 per showing/hour whereas in a movie theatre, it is over 200 per showing/hour.
+								Knowing these issues, the entrepreneur can either choose to ignore it and go ahead with the exact same idea or choose not to work on this at all. However, the better option is to come up with creative ways of resolving these issues. In case of Dream Flight Adventures, the creative way of handling this was to work with schools, by increasing the educational content of the experience. Schools provided the space to setup the simulator and have staff at hand to help run the simulator. 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="div4" class="page">
+		<div class="contentstruct">
+				<div class="content">
+					<iframe class="discussFrame" src="discuss.html" align="middle" seamless></iframe>
+				</div>
+			</div>
+		</div>
+		
+		<div id="div5" class="page">
+		<div class="contentstruct">
+				<div class="content">
+					<h3>Help content on how to use this portal</h3>
+				</div>
+			</div>
+		</div>
+		
+		<div id="dot-matrix"></div>
+		<div id="black-bg"></div>
+    </body>
+</html>
