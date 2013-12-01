@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Web
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LandOfStartups", "..\..\WebSites\LandOfStartups\", "{EAF7CF6A-9968-4E80-860D-FD48CDF7F105}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LandOfStartups", ".", "{EAF7CF6A-9968-4E80-860D-FD48CDF7F105}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/LandOfStartups"
